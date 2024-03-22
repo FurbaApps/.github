@@ -17,7 +17,7 @@ body:
   - type: textarea
     attributes:
       label: Description
-      description: Provide a brief description of the bug, including what is happening and what you expected to happen.
+      description: Provide a brief description of the bug, including what is happening and what you expected to happen. Include screenshots if applicable.
     validations:
       required: true
   - type: textarea
@@ -26,9 +26,9 @@ body:
       description: Steps to reproduce the behavior.
       placeholder: |
         1. Go to '...'
-        1. Click on '...'
-        1. Scroll down to '...'
-        1. See error '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error '...'
     validations:
       required: true
   - type: textarea
