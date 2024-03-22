@@ -20,7 +20,7 @@ body:
       description: Provide a brief description of the bug, including what is happening and what you expected to happen.
     validations:
       required: true
-    - type: textarea
+  - type: textarea
     attributes:
       label: Steps to Reproduce
       description: Steps to reproduce the behavior.
