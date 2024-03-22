@@ -1,0 +1,29 @@
+name: Feature request
+description: Request a new feature
+title: "[FEATURE]: <title>"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: Business Description
+      description: Provide a brief description of the business need or user story driving this feature request.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Implementation Details
+      description: Describe the necessary implementation details for the feature.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: Provide detailed acceptance criteria for the feature, including specific functionality or behavior that must be met.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Notes
+      description: Any additional information or considerations relevant to the feature request can be provided here.
+    validations:
+      required: false
