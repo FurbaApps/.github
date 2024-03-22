@@ -1,0 +1,68 @@
+name: Bug Report
+description: Report an issue
+title: "[BUG]: <title>"
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: priority
+    attributes:
+      label: What is the priority of this issue?
+      options:
+        - Low
+        - Medium
+        - High
+      default: Low
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: Provide a brief description of the bug, including what is happening and what you expected to happen.
+    validations:
+      required: true
+    - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        1. Click on '...'
+        1. Scroll down to '...'
+        1. See error '...'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen when following the steps above.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Product Version
+      description: Specify the version of the software or the commit hash where the bug occurred, if applicable.
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Environment
+      description: Specify the OS, browser and device (if applicable) where the bug occurred.
+      options:
+        - label: Desktop
+        - label: Mobile
+        - label: Windows
+        - label: MacOS
+        - label: Android
+        - label: iOS
+        - label: Chrome
+        - label: Safari
+        - label: Firefox
+        - label: Opera
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any additional information that may be helpful for reproducing or understanding the bug, such as relevant logs or configurations.
+    validations:
+      required: false
