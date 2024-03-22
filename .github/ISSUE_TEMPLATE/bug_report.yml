@@ -11,7 +11,7 @@ body:
         - Low
         - Medium
         - High
-      default: Low
+      default: 0
     validations:
       required: true
   - type: textarea
