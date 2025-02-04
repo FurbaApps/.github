@@ -1,12 +1,13 @@
 labels:
-  - name: bug
-    color: d73a4a
-    description: Something isn't working correctly
-
   - name: documentation
-    color: 0075ca
+    color: BFD4F2
     description: Improvements or additions to documentation
-
-  - name: enhancement
-    color: a2eeef
-    description: New feature or request
+  - name: design
+    color: 5319E7
+    description: UI/UX Design changes
+  - name: frontend
+    color: D93F0B
+    description: Frontend changes
+  - name: backend
+    color: FBCA04
+    description: Backend changes

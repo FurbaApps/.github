@@ -8,9 +8,9 @@ body:
     attributes:
       label: What is the priority of this issue?
       options:
-        - Low
-        - Medium
         - High
+        - Medium
+        - Low
       default: 0
     validations:
       required: true
