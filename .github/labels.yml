@@ -5,9 +5,9 @@ labels:
   - name: design
     color: 5319E7
     description: UI/UX Design changes
-  - name: frontend
+  - name: front-end
     color: D93F0B
-    description: Frontend changes
-  - name: backend
+    description: Front-end changes
+  - name: back-end
     color: FBCA04
-    description: Backend changes
+    description: Back-end changes
