@@ -57,7 +57,7 @@ body:
         - label: Chrome
         - label: Safari
         - label: Firefox
-        - label: Opera
+        - label: Other
     validations:
       required: true
   - type: textarea
